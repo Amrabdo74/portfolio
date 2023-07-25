@@ -135,6 +135,7 @@ body.light-theme {
 ==========*/
 .light-theme .scroll-header {
   box-shadow: 0 2px 4px hsla(0, 0%, 1, 0.1);
+  background-color: white;
 }
 .light-theme .nav__menu {
   background-color: hsla(var(--second-hue), 32%, 98%, 0.8);
@@ -610,6 +611,8 @@ body.light-theme {
 .work__img {
   border-radius: 1rem;
   margin-bottom: 0.75rem;
+  width: 50px;
+  height: 150px;
 }
 .work__title {
   font-size: var(--normal-font-size);
@@ -997,4 +1000,10 @@ body.light-theme {
   .contact__container {
     column-gap: 6rem;
   }
+}
+@media (min-width: 992px) {
+  .work__container {
+    grid-template-columns: repeat(3, max-content);
+  }
+  
 }
