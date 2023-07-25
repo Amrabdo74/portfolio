@@ -611,7 +611,7 @@ body.light-theme {
 .work__img {
   border-radius: 1rem;
   margin-bottom: 0.75rem;
-  width: 50px;
+  width: 100%;
   height: 150px;
 }
 .work__title {
